@@ -1,4 +1,5 @@
-* {
+
+  *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,15 +21,28 @@
     border: 2px solid black;
     margin-bottom: 5px;
     float:right;
-    
-    
+    }
+ 
+  #p1{
+    background-color:red;
   }
-  p{
-      background-color:pink;
+  #p2{
+  background-color:green;
   }
-  div.p{
-      background-color:red;
+  #p3{
+    background-color:bisque;
   }
+  
+  div#first{
+    background-color:aqua;
+  }
+  div#second{
+    background-color:brown;
+  }
+  div#third{
+    background-color:blueviolet
+  }
+  
   
   @media (min-width: 1200px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -125,4 +139,3 @@
       width: 100%;
     }
   }
-  
